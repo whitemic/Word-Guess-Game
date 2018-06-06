@@ -1,0 +1,68 @@
+body {
+    background-image: url(../Images/fbpic.jpg);
+    background-size: 1054px 758px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    border: solid;
+    border-color: white;
+    height: 280px;
+}
+
+#column1 {
+    border-right: solid;
+    border-color: yellow;
+    width: 500px;
+    height: 280px;
+    float: left;
+
+}
+
+#outcomeBox {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    height: 280px;
+}
+
+#column2 {
+    color: white;
+    float: left;
+    margin-left: 0;
+    height: 280px;
+    width: 524px;
+}
+
+#instructions {
+    text-align: center;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#wins-counter {
+    text-align: center;
+    padding: 30px;
+}
+
+#word-display {
+    text-align: center;
+}
+
+#guesses {
+    text-align: center;
+    padding: 30px;
+}
+
+#letters-guessed {
+    text-align: center;
+    color: white;
+    /* padding: 30px; */
+}
